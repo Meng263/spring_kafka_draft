@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9091
+      group-id: my_group
+      key-deserializer: org.apache.kafka.common.serialization.VoidDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
